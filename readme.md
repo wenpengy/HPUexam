@@ -1,10 +1,10 @@
 ### HPUexam.cls 河南理工大学试卷模板
 
 模板首页：
-![](https://github.com/wenpengy/HPUexam/blob/master/media/first-page.png)
+![](https://github.com/wenpengy/HPUexam/raw/master/media/first-page.png)
 
 非首页密封线（优化）：
-![](https://github.com/wenpengy/HPUexam/blob/master/media/margin.jpg)
+![](https://github.com/wenpengy/HPUexam/raw/master/media/margin.jpg)
 
 #### 模板介绍
 

@@ -1,8 +1,8 @@
-% BHCexam.cls
+% HPUexam.cls
 %
-% A LaTeX2e document class for preparing exams.
+% A LaTeX2e document class for preparing exams in HPU.
 
-% Copyright (c) 2020-2021 BAO HONG CHANG
+% Copyright (c) 2020-2021 Yang Wenpeng 
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License, either version 1.3

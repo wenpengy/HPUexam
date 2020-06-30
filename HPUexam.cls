@@ -238,11 +238,13 @@ rulewidth=0.5pt, bgcolor={rgb}{1,1,1}},name=解]{solution}
   \newcolumntype{F}{>{\bfseries\heiti}p{1.4cm}<{\centering}}
   \vspace{2ex}
   \begin{tabular}[b]{|F|F|p{12cm}} \cline{1-2}
-    分数 & & {\bfseries \songti #1 总分(#2)}\\\cline{1-2}
+    分数 & #2 & {\bfseries \songti #1}\\\cline{1-2}
     得分 & &\\\cline{1-2}
   \end{tabular}
   \vspace{2ex}
 }
 
+\setlength{\baselineskip}{1.5ex}
+\setlength{\parskip}{2ex}
 
 \endinput

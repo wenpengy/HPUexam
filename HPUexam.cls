@@ -29,14 +29,17 @@
 \ProvidesClass{HPUexam}[\filedate\space Version \fileversion\space by
 Yang Wenpeng]
 
-\newif\ifprintonlyanswer \printonlyanswerfalse
-\DeclareOption{answer}{\printonlyanswertrue}
+\newif\iftestmode \testmodefalse
+\DeclareOption{test}{\testmodetrue}
 
-\newif\ifprintfull \printfullfalse
-\DeclareOption{full}{\printfulltrue}
+\newif\ifkeysmode \keysmodefalse
+\DeclareOption{keys}{\keysmodetrue}
 
-\newif\ifprintquestion \printquestionfalse
-\DeclareOption{question}{\printquestiontrue}
+\newif\ifanswermode \answermodefalse
+\DeclareOption{answer}{\answermodetrue}
+
+\newif\ifanswermode \answermodefalse
+\DeclareOption{full}{\answermodetrue}
 
 \newcommand\@fontsize{false}
 \DeclareOption{c5s}{\renewcommand\@fontsize{5}}
@@ -59,6 +62,8 @@ Yang Wenpeng]
 
 \RequirePackage{tabularx, ifthen} % 排选项用
 \RequirePackage{makecell}
+\RequirePackage[cbgreek]{textgreek}
+\RequirePackage[separate-uncertainty=true,bracket-numbers=false,multi-part-units=single]{siunitx}
 \RequirePackage{titlesec}%titlesec宏包调整section与正文间距
 \RequirePackage{xcolor,graphicx,caption} % 彩色、图片、图释
 \RequirePackage{geometry,fancyhdr,calc} % 纸张、边距、页眉、页脚

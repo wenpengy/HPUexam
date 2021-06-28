@@ -154,6 +154,7 @@ rulewidth=0.5pt, bgcolor={rgb}{1,1,1}},name=解]{solution}
   \fancyfoot[LO]{
     \begin{tikzpicture}[remember picture,overlay]
       \draw (current page.west)++(13.5mm,0) node (studyt) {\rotatebox[origin=c]{90}{\zihao{-4} 专业班级\underline{\hspace{5cm}}\hspace{0.5cm} 姓名\underline{\hspace{3.5cm}}\hspace{0.5cm}学号\underline{\hspace{3.5cm}}}};
+      \draw(current page.west)++(13.5mm, 12.5cm) node (order) {\rotatebox{90}{\zihao{-4} 序号\hspace{0.5}\underline{\hspace{2cm}}}};
       %
       \draw (current page.west)++(24mm,0) node (f) {\rotatebox{90}{封}};
       \draw (f)++(0,-6cm) node (m) {\rotatebox[origin=c]{90}{密}};
